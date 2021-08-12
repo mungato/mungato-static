@@ -1,0 +1,24 @@
+{
+  "name": "mungato-static",
+  "version": "1.0.0",
+  "description": "static files for mungato",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "static-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mungato/mungato-static.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mungato/mungato-static/issues"
+  },
+  "homepage": "https://github.com/mungato/mungato-static#readme",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
+}
