@@ -1,6 +1,10 @@
 /*
  * Some helper functions to work with our UI and keep our code cleaner
  */
+if (typeof txt_processing === 'undefined') {
+    var txt_processing = "Processing...";
+}
+
 // Adds an entry to our debug area
 function ui_add_log(message, color) {
     var d = new Date();
