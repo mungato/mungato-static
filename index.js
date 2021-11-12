@@ -7,7 +7,7 @@ const server = new StaticServer({
   followSymlink: true,
 });
 
-server.cors('Access-Control-Allow-Origin', 'localhost')
+// server.cors('Access-Control-Allow-Origin', 'localhost')
 
 server.start(function () {
   console.log(`Mungato static server run on PORT ${server.port}`);
